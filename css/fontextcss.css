@@ -1,48 +1,47 @@
-@font-face
-{
-    font-family: 'ChunkFiveRegular';
-    src: url('fonts/chunkfive.eot'); /* Link para formato para IE 5-8 and IE 9+ */
-    src: url('fonts/chunkfive.eot#iefix')
-    format('embedded-opentype'),
-    url('fonts/chunkfive.woof') format('woff'), /* Link formato para Chrome 6+ Firefox 3.6+ IE9+ */
-    url('fonts/chunkfive.ttf') format('truetype'), /* Link formato para Chrome 6+ Firefox 3.5, 3.6+ IE9+ Opera 10+ Safari 3.1+ iOS 4.2+*/
-    url('fonts/chunkfive.sgv#ChunkFiveRegular') format('sgv'); /* Link formato para Chrome (All), 6+ Opera 10+ Safari 3.1+ iOS 4.2+ */
+@font-face {
+  font-family: "ChunkFiveRegular";
+  src: url("fonts/chunkfive.eot"); /* Link para formato para IE 5-8 and IE 9+ */
+  src: url("fonts/chunkfive.eot#iefix") format("embedded-opentype"),
+    url("fonts/chunkfive.woof") format("woff"),
+    /* Link formato para Chrome 6+ Firefox 3.6+ IE9+ */
+      url("fonts/chunkfive.ttf") format("truetype"),
+    /* Link formato para Chrome 6+ Firefox 3.5, 3.6+ IE9+ Opera 10+ Safari 3.1+ iOS 4.2+*/
+      url("fonts/chunkfive.sgv#ChunkFiveRegular") format("sgv"); /* Link formato para Chrome (All), 6+ Opera 10+ Safari 3.1+ iOS 4.2+ */
 }
 
-h1, h2
-{
-    font-family: ChunkFiveRegular, Georgia, serif;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
+h1,
+h2 {
+  font-family: ChunkFiveRegular, Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
-h1
-{
-   text-align: left;
+h1 {
+  background-image: url("../img/briards.jpg");
+  background-repeat: no-repeat;
+  text-indent: 10px;
+  text-align: left;
 }
 
-h2
-{
-    text-transform: lowercase;
+h2 {
+  text-transform: lowercase;
 }
 
-.credits
-{
-    font-weight: bold;
-    word-spacing: 1em;
-    font-style: italic;
-    text-transform: capitalize;
-    text-decoration: underline;
-    text-align: right;
+.credits {
+  font-weight: bold;
+  word-spacing: 1em;
+  font-style: italic;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: right;
+  text-indent: 20px;
 }
 
-a
-{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-p
-{
-    line-height: 1.4em;
-    text-align: justify;
+p {
+  line-height: 1.4em;
+  text-align: justify;
 }
