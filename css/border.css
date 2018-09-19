@@ -1,0 +1,54 @@
+p.one
+{
+    border-width: 2px;
+}
+
+p.two
+{
+    border-width: thick;
+}
+
+p.three
+{
+    border-width: 1px 4px 12px 4px;
+}
+
+p.four
+{
+    border-style: solid;
+}
+
+p.five
+{
+    border-style: dotted;
+}
+
+p.six
+{
+    border-style: dashed;
+}
+
+p.seven
+{
+    border-style: double;
+}
+
+p.eight
+{
+    border-style: groove;
+}
+
+p.nine
+{
+    border-style: ridge;
+}
+
+p.ten
+{
+    border-style: inset;
+}
+
+p.eleven
+{
+    border-style: outset;
+}
