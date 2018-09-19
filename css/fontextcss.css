@@ -12,8 +12,10 @@
 h1, h2
 {
     font-family: ChunkFiveRegular, Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
-
+/*
 h1
 {
     text-transform: uppercase;
@@ -23,10 +25,11 @@ h2
 {
     text-transform: lowercase;
 }
-
+*/
 .credits
 {
     font-weight: bold;
+    word-spacing: 1em;
     font-style: italic;
     text-transform: capitalize;
     text-decoration: underline;
