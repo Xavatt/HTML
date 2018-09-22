@@ -2,17 +2,20 @@ body
 {
     width: 960px;
     margin: 0 auto;
+    text-align: center;
 }
 #content
 {
     overflow: auto;
     height: 100%;
+    text-align: center;
 }
 #nav, #feature, #footer
 {
     background-color: #efefef;
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 .column1, .column2, .column3
 {
